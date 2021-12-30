@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">opeqe messenger</string>
+
+    <string name="hint_server_url">Server URL</string>
+
+    <string name="label_request_error">خطایی رخ داده است . لطفا مجدد تلاش کنید</string>
+    <string name="label_welcome">Welcome to \n opeqe Messenger</string>
+     <string name="label_submit">Submit</string>
+    <string name="label_retry">retry</string>
+
+
+    <string name="error_http">have error</string>
+    <string name="error_auth">have error to authentication</string>
+    <string name="label_name">Name</string>
+    <string name="label_default">Default</string>
+    <string name="label_age">Age</string>
+    <string name="label_priceChange">Price Change</string>
+    <string name="label_userName">UserName</string>
+</resources>

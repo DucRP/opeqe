@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Messenger.NormalBtn" parent="TextAppearance.MaterialComponents.Button">
+        <item name="backgroundTint">@color/button_state_colors</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Theme.Messenger.NormalTextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
+
+    <style name="Theme.Messenger.NormalTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="Theme.Messenger.ToolBarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">?attr/textAppearanceHeadline4</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+        <!--        <item name="navigationIconTint">?attr/colorOnPrimary</item>-->
+        <!--        <item name="navigationIcon">@drawable/ic_baseline_arrow_back_24</item>-->
+    </style>
+</resources>

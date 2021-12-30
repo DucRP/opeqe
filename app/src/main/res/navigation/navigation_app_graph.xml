@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/UserListFragment">
+
+
+    <fragment
+        android:id="@+id/UserListFragment"
+        android:name="com.opeqe.userList.presentation.UserFragment"
+        android:label="UserList">
+        <deepLink app:uri="Opeqe://UserList" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/UserDetailFragment"
+        android:name="com.opeqe.userDetail.presentation.UserDetailFragment">
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="userName"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="age"
+            app:argType="integer" />
+
+        <deepLink app:uri="Opeqe://UserDetail/?id={id}?userName={userName}?name={name}?age={age}" />
+    </fragment>
+</navigation>
